@@ -1,3 +1,7 @@
+table {
+    border-collapse: collapse;
+}
+
 .grey {
     width: 20%;
     background-color: #dcdce5;
@@ -27,4 +31,14 @@
 
 .ede {
     background-color: #ededf5;
+}
+
+.ede td {
+    text-align: center;
+    width: 33.3%;
+    padding: 33px 36px 38px;
+}
+
+.ede p {
+    color: #666666;
 }

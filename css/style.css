@@ -78,3 +78,29 @@ li {
 .background h2, .background p, .background div {
     text-align: center;
 }
+
+.icons {
+    background-color: #08081a;
+}
+
+.icons p {
+    font-size: 13px;
+    line-height: 1.4em;
+    color: #9999a6;
+    text-align: center;
+}
+
+.footer {
+    background-color: #000014;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer a {
+    font-size: 11px;
+    line-height: 1.6em;
+    color: #fd8300;
+    text-decoration: none;
+}

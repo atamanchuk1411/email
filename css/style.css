@@ -2,8 +2,18 @@ table {
     border-collapse: collapse;
 }
 
-p {
-    margin: 0;
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e4e4ec;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
 }
 
 .grey {
@@ -55,16 +65,16 @@ p {
 
 .cottages img {
     width: 100%;
-} 
-
-.padding {
-    padding-bottom: 15px;
-}
-
-.border {
-    border-top: 1px solid #e4e4ec;
 }
 
 .background {
     background-image: url(https://raw.githubusercontent.com/atamanchuk1411/email/refs/heads/master/img/orange.png);
+}
+
+.background h2, .background p {
+    color: #ffffff;
+}
+
+.background h2, .background p, .background div {
+    text-align: center;
 }

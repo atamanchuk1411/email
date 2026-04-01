@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial";
+}
+
 table {
     border-collapse: collapse;
 }
@@ -9,12 +18,18 @@ hr {
 }
 
 ul {
-    padding: 0;
+    margin: 0;
 }
 
 li {
     list-style: none;
 }
+
+h1 {
+    font-size: 24px;
+    color: #24242b;
+    font-weight: bold;
+} 
 
 .grey {
     width: 20%;
@@ -30,30 +45,80 @@ li {
     width: 60%;
 }
 
+.left picture {
+    display: block;
+    width: 100%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    padding: 13px 30px;
+}
+
+.right {
+    width: 50%;
+    padding: 13px 30px;
+    text-align: right;
+}
+
+.phone a {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #25252c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.phone img {
+    padding-right: 5px;
+}
+
+.number {
+    font-size: 13px;
+    line-height: 1.4em;
+    color: #9999a6;
+    font-style: italic;
+}
+
 .img {
     width: 100%;
 }
 
 .information {
-    padding: 5px 36px 30px;
+    padding: 5px 30px 30px;
 }
 
 .information p {
+    font-size: 14px;
+    line-height: 1.7em;
     color: #666666;
-    padding: 0 25px 20px 0;
 } 
 
 .ede {
     background-color: #ededf5;
 }
 
+.ede .title {
+    padding-bottom: 9px;
+    font-size: 14px;
+    line-height: 1.3em;
+    color: #24242b;
+    font-weight: bold;
+}
+
 .ede td {
     text-align: center;
     width: 33.3%;
-    padding: 33px 36px 38px;
+    padding: 33px 18px 38px;
 }
 
-.ede p {
+.ede .text {
+    font-size: 13px;
+    line-height: 1.4em;
     color: #666666;
 }
 
@@ -67,23 +132,59 @@ li {
     width: 100%;
 }
 
+.cottages p, .cottages li {
+    font-size: 13px;
+    line-height: 1.5em;
+    color: #9999a6;
+}
+
+.cottages h3 {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #1f1f56;
+    font-weight: bold;
+}
+
 .background {
+    padding: 15px 0 35px;
     background-image: url(https://raw.githubusercontent.com/atamanchuk1411/email/refs/heads/master/img/orange.png);
 }
 
-.background h2, .background p {
+.background .title {
+    padding-bottom: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.backgrond li{
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.background li, .background div {
+    text-align: center;
     color: #ffffff;
 }
 
-.background h2, .background p, .background div {
-    text-align: center;
+.background .padding {
+    padding-bottom: 3px;
 }
 
 .icons {
     background-color: #08081a;
 }
 
+.icons div {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.icons a {
+    padding: 0 4px;
+}
+
 .icons p {
+    padding: 9px 0;
     font-size: 13px;
     line-height: 1.4em;
     color: #9999a6;
